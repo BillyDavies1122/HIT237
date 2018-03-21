@@ -20,4 +20,5 @@ from week4_app import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^currenttime/',views.helloworld),
+    url(r'^block/',views.block),
 ]

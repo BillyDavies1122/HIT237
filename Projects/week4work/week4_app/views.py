@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def helloworld(request):
     return render(request,'Helloworld.html')
+
+def block(request):
+    return render(request,"parentblock.html")
