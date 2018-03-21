@@ -7,3 +7,6 @@ def helloworld(request):
 
 def block(request):
     return render(request,"parentblock.html")
+
+def otherpage(request):
+    return render(request,"otherpage.html")
