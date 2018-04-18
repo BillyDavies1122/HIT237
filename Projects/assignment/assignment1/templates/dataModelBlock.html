@@ -1,0 +1,39 @@
+{% extends "dataModel.html" %}
+
+{% block pagetitle %}
+Data Model
+{% endblock %}
+
+
+{% block pageContent %}
+<h1> TASK 2 - Data Model </h1>
+<p>My class which represented the items in my catalogue consisted of the following attributes <p>
+<ul>
+  <li>id</li>
+  <li>title</li>
+  <li>developer</li>
+  <li>genre</li>
+  <li>relDate</li>
+  <li>setting</li>
+</ul>
+
+<p>The <b>id</b> attribute was a single digit integer value and the primary key.</p>
+<p>The purpose of this attribute was to be a unique identifier to be used when sending data to my template </p>
+<br>
+<p>The <b>title</b> attribute was a string. It was used to represent the title of the game.</p>
+<p>This attribute could not be null as every game has some form of a title even if its not the final one </p>
+<br>
+<p>The <b>developer</b> attribute was a string. It was used to represent the developer of the game.</p>
+<p>The <b>developer</b> attribute could not be null as every game has a developer </p>
+<br>
+<p>The <b>genre</b> attribute was a string. it was used to represent the genre of the game. </p>
+<p>The <b>genre</b> attribute could not be null because every game has a genre </p>
+<br>
+<p> The <b>relDate</b> was a string. It was used to represent the release date of the game</p>
+<p>The <b>relDate</b> attribute could be null as some games are yet to release or have a release date announced </p>
+<br>
+<p></p>
+<p></p>
+
+
+{% endblock %}

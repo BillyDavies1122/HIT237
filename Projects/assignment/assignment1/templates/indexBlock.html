@@ -1,0 +1,16 @@
+{% extends "index.html" %}
+
+{% block pagetitle %}
+Index page
+{% endblock %}
+
+
+{% block index %}
+<h1> List of Catalogue Items</h1>
+<p>Click on one to learn more </p>
+<ul>
+{% for id,title in idTitleList %}
+  <li><a href="{{id}}">{{title}}<a></li>
+{% endfor %}
+</ul>
+{% endblock %}

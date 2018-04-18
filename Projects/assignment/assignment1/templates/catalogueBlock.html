@@ -1,0 +1,16 @@
+{% extends 'catalogue.html' %}
+
+{% block pagetitle %}
+{{itemTitle}}
+{% endblock %}
+
+
+ {% block itemDetails %}
+<p>Title of the game : {{itemTitle}}</p>
+<p>Developer of the game: {{itemDeveloper}}</p>
+<p>Genre of the game: {{itemGenre}}</p>
+<p>Release date of the game: {{itemRelDate}}</p>
+
+<h2>The Games setting</h2>
+<p>{{ItemSetting}}</p>
+ {% endblock %}
